@@ -12,7 +12,8 @@ push!(LOAD_PATH,"../src/")
 using Documenter
 makedocs(
          sitename = "CheeseCake.jl",
-         pages=[
+         modules  = [CheeseCake],
+		 pages=[
                 "Home" => "index.md"
                ])
 deploydocs(;
