@@ -16,8 +16,7 @@ makedocs(
                 "Home" => "index.md"
                ])
 deploydocs(;
-    repo="github.com/RenzoRamirez26/IceCream/blob/main/CheeseCake.jl",
-)
+    repo="https://github.com/RenzoRamirez26/IceCream/blob/bb06965512cf58acbe4b296a115df9cf17d6e3ec/CheeseCake.jl",)
 end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
